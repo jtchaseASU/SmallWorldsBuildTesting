@@ -19,7 +19,7 @@
     <script src="Build/UnityLoader.js"></script>
     <!--NB: 11/13/2017-->
     <!--Added script to confirm landscape orientation before loading game instance-->
-
+    <script>checkOrientation();</script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/jtchaseASU.github.io.json", {onProgress: UnityProgress, compatibilityCheck: DetectWebGL});
     </script>
