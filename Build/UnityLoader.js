@@ -171,7 +171,7 @@ var UnityLoader = UnityLoader || {
                 }
             },
             SetFullscreen: function() {
-                //if (o.Module.SetFullscreen) return o.Module.SetFullscreen.apply(o.Module, arguments)
+                if (o.Module.SetFullscreen) return o.Module.SetFullscreen.apply(o.Module, arguments)
             },
             SendMessage: function() {
                 if (o.Module.SendMessage) return o.Module.SendMessage.apply(o.Module, arguments)
