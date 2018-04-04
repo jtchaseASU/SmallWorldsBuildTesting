@@ -8,7 +8,7 @@
     <script src="TemplateData/ucapisupportfiles.js"> </script>
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/48376b19d4b6738063251e4af8a64f33.js"></script>
+    <script src="Build/UnityLoader.js"></script>
     <script src="TemplateData/DetectWebGL.js"></script>
     <!--NB: 11/02/2017-->
     <!--Replaced default Unity compatibility check that returns an error
@@ -21,7 +21,7 @@
     <!--Added script to confirm landscape orientation before loading game instance-->
     <script>checkOrientation();</script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/04e1776d2a6f455a080340bc1a6f39f8.json", {onProgress: UnityProgress, compatibilityCheck: DetectWebGL});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/jtchaseASU.github.io.json", {onProgress: UnityProgress, compatibilityCheck: DetectWebGL});
     </script>
   </head>
   <body>
